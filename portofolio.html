@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Malikus Saleh Cahya Ramadhan</title>
+    <!-- Memuat Bootstrap 5 CSS dari CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Memuat Bootstrap Icons untuk elemen visual yang modern -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body class="bg-light text-dark">
+
+    <!-- Navbar (Warna Hitam & Responsif Tanpa JS) -->
+    <nav class="navbar bg-dark shadow-sm sticky-top py-3 border-bottom border-secondary">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+            <a class="navbar-brand fw-bolder fs-4 text-white m-0" href="#">
+                <i class="bi bi-code-slash text-info me-2"></i>Ramadhan
+            </a>
+            <!-- Navigasi otomatis membungkus (wrap) dengan rapi di layar HP -->
+            <ul class="nav nav-pills d-flex flex-wrap justify-content-center gap-2">
+                <li class="nav-item">
+                    <a href="#beranda" class="nav-link text-white bg-secondary bg-opacity-25 px-3 py-2 rounded-pill fw-medium">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tentang" class="nav-link text-white bg-secondary bg-opacity-25 px-3 py-2 rounded-pill fw-medium">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project" class="nav-link text-white bg-secondary bg-opacity-25 px-3 py-2 rounded-pill fw-medium">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#kontak" class="nav-link text-white bg-secondary bg-opacity-25 px-3 py-2 rounded-pill fw-medium">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Beranda - Background Putih Bersih) -->
+    <section id="beranda" class="py-5 text-center container-fluid bg-white text-dark position-relative overflow-hidden border-bottom border-light">
+        <div class="row py-lg-5">
+            <div class="col-lg-8 col-md-10 mx-auto px-4">
+                <span class="badge bg-info text-dark px-3 py-2 rounded-pill fw-bold mb-3">SISWA REKAYASA PERANGKAT LUNAK</span>
+                <h1 class="display-3 fw-black mb-3 text-dark tracking-tight">Malikus Saleh Cahya Ramadhan</h1>
+                <p class="lead text-secondary mb-5 mx-auto" style="max-width: 700px;">
+                    Siswa aktif kelas <strong class="text-info">11 RPL 2</strong> di <strong class="text-dark">SMK PGRI WLINGI</strong>. Berfokus pada pengembangan aplikasi web, perancangan basis data, dan pembuatan antarmuka pengguna yang interaktif.
+                </p>
+                
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <!-- Tombol Download CV Premium -->
+                    <a href="CV_Malikus Saleh.pdf" download class="btn btn-info btn-lg px-5 py-3 rounded-pill fw-bold shadow text-white d-inline-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cloud-arrow-down-fill fs-5"></i> Unduh CV Saya
+                    </a>
+                    <a href="#project" class="btn btn-outline-dark btn-lg px-5 py-3 rounded-pill d-inline-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-folder-fill"></i> Lihat Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya & Keahlian (Tanpa Foto) -->
+    <section id="tentang" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row g-5 align-items-stretch">
+                <!-- Kolom Tentang Saya (Kiri) -->
+                <div class="col-lg-7 d-flex flex-column justify-content-center">
+                    <div class="pe-lg-4">
+                        <h6 class="text-primary fw-bold text-uppercase tracking-wider mb-2">SIAPA SAYA?</h6>
+                        <h2 class="display-6 fw-bold mb-4 text-dark">Tentang Diri Saya</h2>
+                        <p class="text-muted fs-5 lh-base mb-4">
+                            Halo! Saya Malikus Saleh, seorang pelajar yang antusias di bidang IT dan pemrograman. Menempuh pendidikan kejuruan di SMK PGRI WLINGI memberi saya kesempatan untuk mendalami dasar-dasar pengembangan perangkat lukak secara langsung.
+                        </p>
+                        <p class="text-muted fs-5 lh-base mb-0">
+                            Saya senang memecahkan masalah melalui logika pemrograman, membangun desain web yang bersih, serta mempelajari alur kerja sistem modern. Saya selalu siap untuk terus belajar dan berkolaborasi dalam berbagai proyek teknologi.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Kolom Keahlian / Tech Stack (Kanan) -->
+                <div class="col-lg-5">
+                    <div class="card border-0 bg-light rounded-4 p-4 p-md-5 h-100 shadow-sm d-flex flex-column justify-content-center">
+                        <h4 class="fw-bold mb-4 d-flex align-items-center text-dark">
+                            <i class="bi bi-cpu text-info me-2 fs-3"></i> Tech Stack & Keahlian
+                        </h4>
+                        
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge rounded-pill text-bg-primary px-3 py-2 fs-6 fw-normal"><i class="bi bi-filetype-html me-1"></i> HTML</span>
+                            <span class="badge rounded-pill text-bg-primary px-3 py-2 fs-6 fw-normal"><i class="bi bi-filetype-css me-1"></i> CSS & Bootstrap</span>
+                            <span class="badge rounded-pill text-bg-primary px-3 py-2 fs-6 fw-normal"><i class="bi bi-filetype-php me-1"></i> PHP Dasar & Laravel</span>
+                            <span class="badge rounded-pill text-bg-primary px-3 py-2 fs-6 fw-normal"><i class="bi bi-database me-1"></i> MySQL</span>
+                            <span class="badge rounded-pill text-bg-primary px-3 py-2 fs-6 fw-normal"><i class="bi bi-palette me-1"></i> UI/UX Design</span>
+                            <!-- Keahlian RPL Tambahan -->
+                            <span class="badge rounded-pill text-bg-info text-white px-3 py-2 fs-6 fw-normal"><i class="bi bi-filetype-js me-1"></i> JavaScript (Dasar)</span>
+                            <span class="badge rounded-pill text-bg-info text-white px-3 py-2 fs-6 fw-normal"><i class="bi bi-github me-1"></i> Git & GitHub</span>
+                            <span class="badge rounded-pill text-bg-info text-white px-3 py-2 fs-6 fw-normal"><i class="bi bi-laptop me-1"></i> Figma</span>
+                            <span class="badge rounded-pill text-bg-info text-white px-3 py-2 fs-6 fw-normal"><i class="bi bi-hdd-network me-1"></i> API Dasar</span>
+                        </div>
+                        
+                        <div class="small text-muted d-flex align-items-start gap-2">
+                            <i class="bi bi-info-circle-fill text-primary mt-1"></i>
+                            <span>Semua kompetensi ini dipelajari melalui kurikulum produktif RPL di sekolah dan eksplorasi belajar mandiri secara konsisten.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase tracking-wider mb-2">KARYA TERBAIK</h6>
+                <h2 class="display-6 fw-bold mb-3">Project Portofolio</h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Berikut adalah proyek aplikasi dan situs web yang telah saya bangun selama proses pembelajaran.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Project 1 -->
+                <div class="col">
+                    <div class="card h-100 shadow border-0 rounded-4 overflow-hidden bg-white">
+                        <!-- Menggunakan Placeholder Image Estetis -->
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 text-dark">Blog One Piece</h5>
+                            <span class="badge bg-success bg-opacity-10 text-success rounded-pill px-3 py-1 mb-2 fw-medium">Tugas Sekolah</span>
+                            <p class="card-text text-muted mb-0">Sebuah platform blog interaktif dan responsif yang didedikasikan untuk para penggemar anime One Piece. Menyajikan informasi arc dan info film movie, serta pembaruan chapter atau episode terbaru menggunakan framework Bootstrap.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 px-4 pb-4 pt-0">
+                            <!-- Link Akses Project -->
+                            <a href="https://github.com/tatet15/blog_romo" target="_blank" class="btn btn-primary w-100 rounded-pill fw-medium py-2">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Kunjungi Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col">
+                    <div class="card h-100 shadow border-0 rounded-4 overflow-hidden bg-white">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 text-dark">Web Absensi Siswa</h5>  
+                            <span class="badge bg-warning bg-opacity-10 text-warning rounded-pill px-3 py-1 mb-2 fw-medium">Tugas Akhir</span>
+                            <p class="card-text text-muted mb-0">Sistem pencatatan kehadiran siswa berbasis web yang efisien. Fitur utama mencakup pencatatan Hadir Izin Sakit Dan Alpha, rekapitulasi data absensi bulanan secara otomatis, serta sistem pelacakan keterlambatan untuk membantu kedisiplinan sekolah.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 px-4 pb-4 pt-0">
+                            <!-- Link Akses Project -->
+                            <a href="https://github.com/tatet15/absensi_siswa" target="_blank" class="btn btn-primary w-100 rounded-pill fw-medium py-2">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Kunjungi Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col">
+                    <div class="card h-100 shadow border-0 rounded-4 overflow-hidden bg-white">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 text-dark">Tampilan Aplikasi Mobile</h5>
+                            <span class="badge bg-success bg-opacity-10 text-success rounded-pill px-3 py-1 mb-2 fw-medium">Tugas Sekolah</span>
+                            <p class="card-text text-muted mb-0">Desain antarmuka (User Interface) modern dan UI/UX interaktif untuk aplikasi mobile. Berfokus pada pengalaman pengguna yang intuitif, navigasi yang mudah, serta konsistensi visual elemen desain yang ramah pengguna.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 px-4 pb-4 pt-0">
+                            <!-- Link Akses Project -->
+                            <a href="https://www.figma.com/design/tIZ6UmLrsVEg6aYtGkE42v/Untitled?node-id=0-1&t=CTrMrZwvvv8PfNmy-1" target="_blank" class="btn btn-primary w-100 rounded-pill fw-medium py-2">
+                                <i class="bi bi-box-arrow-up-right me-1"></i> Kunjungi Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section (Sederhana Tanpa Form Kirim Pesan) -->
+    <section id="kontak" class="py-5 bg-white mb-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase tracking-wider mb-2">KONTAK</h6>
+                <h2 class="display-6 fw-bold mb-3">Hubungi Saya</h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Silakan hubungi saya melalui media di bawah ini untuk berdiskusi atau berkolaborasi.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Kontak Langsung (Tengah & Minimalis) -->
+                <div class="col-lg-6 col-md-8">
+                    <div class="card border-0 bg-light rounded-4 p-4 p-md-5 shadow-sm">
+                        <h4 class="fw-bold mb-4 text-center text-dark fs-5">Informasi Kontak</h4>
+                        
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom border-secondary border-opacity-10">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                <i class="bi bi-envelope-fill text-primary fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold small text-muted">Email</h6>
+                                <p class="mb-0 text-dark fw-medium">malikussaleh023@email.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom border-secondary border-opacity-10">
+                            <div class="bg-success bg-opacity-10 p-2 rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                <i class="bi bi-whatsapp text-success fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold small text-muted">WhatsApp</h6>
+                                <p class="mb-0 text-dark fw-medium">085604023545</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom border-secondary border-opacity-10">
+                            <div class="bg-info bg-opacity-10 p-2 rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                <i class="bi bi-github text-info fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold small text-muted">Git</h6>
+                                <a class="mb-0 text-dark fw-medium" href="https://github.com/tatet15" target="_blank">https://github.com/tatet15</a>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center">
+                            <div class="bg-info bg-opacity-10 p-2 rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                <i class="bi bi-geo-alt-fill text-info fs-5"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold small text-muted">Alamat / Sekolah</h6>
+                                <p class="mb-0 text-dark fw-medium">SMK PGRI WLINGI, Blitar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white border-top border-secondary">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="#" class="btn btn-outline-light rounded-circle px-2 py-1"><i class="bi bi-github fs-5"></i></a>
+                <a href="#" class="btn btn-outline-light rounded-circle px-2 py-1"><i class="bi bi-instagram fs-5"></i></a>
+                <a href="#" class="btn btn-outline-light rounded-circle px-2 py-1"><i class="bi bi-linkedin fs-5"></i></a>
+            </div>
+            <p class="mb-0 text-white-50 small">
+                &copy; 2026 Malikus Saleh Cahya Ramadhan <br> 
+                Siswa RPL SMK PGRI WLINGI. Dibuat dengan <i class="bi bi-heart-fill text-danger"></i> & Bootstrap 5.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
